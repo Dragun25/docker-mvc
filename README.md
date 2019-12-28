@@ -72,4 +72,8 @@ You can init your database by [create_database.sql](config/mysql/import/create_d
 
 For more information please see [docker mysql](https://hub.docker.com/_/mysql)
 
+#### Import db to mysql
 
+```bash
+zcat dump.sql.gz | mysql -h 127.0.0.1 -P 3309 -u root -proot database_name 
+```
