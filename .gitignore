@@ -2,3 +2,4 @@ volumes
 .idea
 *.log
 *.test
+.DS_Store
