@@ -17,7 +17,7 @@ cd mvc.test
 3. Clone this repository to env directory 
 
 ```bash
-git clone git@github.com:pusachev/mvc.test.git src/
+git clone git@github.com:pusachev/mvc.test.git env/
 ```
 
 4. Clone you repository in src directory
